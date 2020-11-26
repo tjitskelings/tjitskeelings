@@ -1,5 +1,85 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    width: 100%;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+nav li {
+    padding: 10px;
+}
+
+
+
+#overzicht {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.overzicht {
+    padding: 50px;
+}
+
+.overzicht h1 {
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.overzicht p {
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
+
+.overzicht img {
+    width: 100%;
+}
+
+footer {
+    background-color: #F3F3F3;
+    text-align: center;
+}
+
+footer section {
+    padding: 50px;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+footer a,
+p {
+    font-size: 16px;
+}
+
+footer input {
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    color: gray;
+}
